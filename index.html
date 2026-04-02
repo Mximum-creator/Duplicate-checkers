@@ -44,7 +44,7 @@
   function processNames() {
     const input = document.getElementById('nameInput').value;
     const names = input
-      .split(/[\n,]+/)
+      .split(/[\n]+/)
       .map(name => name.trim())
       .filter(name => name);
 
